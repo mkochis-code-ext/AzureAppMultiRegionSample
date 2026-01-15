@@ -1,0 +1,27 @@
+# Environment Configuration
+environment_prefix = "dev"
+workload          = "webapp"
+primary_location  = "eastus"
+secondary_location = "westus"
+data_location     = ""  # Defaults to location if not specified
+
+# Tags
+tags = {
+  Project     = "Azure App Sample"
+  Owner       = "Platform Team"
+  CostCenter  = "Engineering"
+}
+
+# Network Configuration (Primary Region)
+vnet_address_space_primary            = "10.0.0.0/16"
+app_subnet_address_prefix_primary     = "10.0.1.0/24"
+pe_subnet_address_prefix_primary      = "10.0.2.0/24"
+
+# Network Configuration (Secondary Region)
+vnet_address_space_secondary          = "10.1.0.0/16"
+app_subnet_address_prefix_secondary   = "10.1.1.0/24"
+pe_subnet_address_prefix_secondary    = "10.1.2.0/24"
+
+# App Service Configuration
+app_service_sku = "B1"  # Developer SKU (Basic)
+
