@@ -1,5 +1,7 @@
 # Azure App Multi-Region Sample - Terraform Infrastructure
 
+> **Disclaimer:** This repository is provided purely as a demonstration of these workflows. You are free to use, modify, and adapt the code as you see fit; however, it is offered as-is with no warranty or support of any kind. Use it at your own risk. This is not production-ready code — it should be reviewed, understood, and rewritten to suit your own environment before any real-world use.
+
 This Terraform configuration uses a three-layer modular architecture to deploy a secure, globally distributed Azure web application infrastructure with **Azure Front Door Premium** and private App Services.
 
 ## 📁 Folder Structure
